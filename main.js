@@ -1,6 +1,9 @@
-
-
-
+const Node = function(value) { 
+  return {
+    value: value,//this is the info
+    next: null,// this is the link
+  }
+}
 
 
 if (typeof Node === 'undefined') {
